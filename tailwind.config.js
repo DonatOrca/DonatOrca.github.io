@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bylaws': "url('src/assets/images/bylaws_bg.svg')",
-        'footer': "url('src/assets/images/footer_img.png')",
+        'bylaws': "url('../images/bylaws_bg.png')",
+        'footer': "url('../images/footer_bg.jpg')",
       },
       boxShadow: {
         dmShadow:

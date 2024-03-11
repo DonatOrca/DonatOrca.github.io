@@ -88,7 +88,7 @@ const FooterCollumn = ({ header, links }: CollumnProps) => {
 };
 
 const Logo = () => {
-  return (
+  return (  
     <div className="relative basis-1/5">
       <img src={logo} className="absolute bottom-0 right-0 w-32 min-w-24" />
     </div>

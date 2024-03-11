@@ -1,7 +1,7 @@
 function Announcement() {
   return (
     <>
-      <h1>Announcement</h1>
+      <h1 className="text-3xl">Announcement</h1>
     </>
   );
 }

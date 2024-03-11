@@ -1,28 +1,29 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { useState } from "react";
+import Modal from "./components/Modal";
 
 function App() {
+  const [modal, setModal] = useState({
+    header: "Modal",
+    children: <></>,
+  });
+  const [modalVisible, setModalVisible] = useState(false);
+
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <nav>
-        <Link to={"/"}>Dashboard</Link>
-        {" | "}
-        <Link to={"/announcement"}>Announcement</Link>
-      </nav>
-      <Outlet />
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+      <Outlet context={[setModal, setModalVisible]} />
+      <Footer setModal={setModal} setModalVisible={setModalVisible} />
+
+      <Modal
+        header={modal.header}
+        visible={modalVisible}
+        setVisible={setModalVisible}
+      >
+        {modal.children}
+      </Modal>
     </>
   );
 }

@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'bylaws': "url('src/assets/images/bylaws_bg.svg')",
+        'footer': "url('src/assets/images/footer_img.png')",
+      },
       boxShadow: {
         dmShadow:
           "inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4)",

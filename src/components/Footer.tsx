@@ -54,7 +54,7 @@ const Footer = ({ setModal, setModalVisible }: FooterProps) => {
           DONAT
         </h1>
       </div>
-      <div className="flex flex-row bg-[url('src/assets/images/footer_bg.png')] bg-cover px-3 py-6 font-arial text-4xl text-white no-underline md:pl-24">
+      <div className="flex flex-row bg-[url('/src/assets/images/footer_bg.png')] bg-cover px-3 py-6 font-arial text-4xl text-white no-underline md:pl-24">
         <FooterCollumn header="Contacts" links={CONTACTS} />
         <FooterCollumn header="Copyright" links={COPYRIGHT} />
         <Logo />

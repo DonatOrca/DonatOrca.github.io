@@ -5,9 +5,10 @@ interface Props {
 }
 
 const Constitution = () => {
+  {bg}
   return (
     <div
-      className="bg-[url('src/assets/images/bylaws_bg.png')] bg-contain bg-right-top bg-repeat
+      className="bg-[url('../assets/images/bylaws_bg.png')] bg-contain bg-right-top bg-repeat
                     p-3
                     font-kollektif text-sm md:text-xl"
     >

@@ -5,7 +5,6 @@ interface Props {
 }
 
 const Constitution = () => {
-  {bg}
   return (
     <div
       className="bg-[url('../assets/images/bylaws_bg.png')] bg-contain bg-right-top bg-repeat

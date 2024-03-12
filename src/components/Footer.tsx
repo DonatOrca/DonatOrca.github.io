@@ -15,7 +15,7 @@ interface Hyperlink {
 }
 
 /* Represents a collumn of links in the footer's body */
-interface CollumnProps {
+interface RowProps {
   header?: string;
   links: Hyperlink[];
 }
@@ -77,31 +77,7 @@ const Footer = ({ setModal, setModalVisible }: FooterProps) => {
   );
 };
 
-const FooterCollumn = ({ header, links }: CollumnProps) => {
-  return (
-    <div className="mx-3 basis-2/5">
-      <h1 className="pb-4 font-bold">{header}</h1>
-      <ul className="p-0 text-xl !leading-10 md:text-2xl">
-        {links.map((link) => (
-          <li key={link.key}>
-            <Link
-              className="relative before:absolute
-                       before:bottom-[-2px] before:left-0 before:h-0.5 before:w-0 before:bg-white before:transition-all before:duration-300 before:ease-out before:content-[''] hover:before:w-full
-                       "
-              to={link.url || "#"}
-              onClick={link.call || function () {}}
-              target={link.target || "_blank"}
-            >
-              {link.text}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-const FooterRow = ({ header, links }: CollumnProps) => {
+const FooterRow = ({ header, links }: RowProps) => {
   return (
     <div className="col-span-1 mx-3 basis-2/5">
       {header && <h1 className="pb-4 font-bold">{header}</h1>}

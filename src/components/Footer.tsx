@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 
 import logo from "../assets/images/donat_logo.svg";
 import License from "./License";
+import { ReactNode } from "react";
 
 /* Represents an anchor element's properties */
 interface Hyperlink {
-  text: string;
+  key: string;
+  text: string | ReactNode;
   url?: string;
   call?(): any;
   target?: string;
@@ -14,7 +16,7 @@ interface Hyperlink {
 
 /* Represents a collumn of links in the footer's body */
 interface CollumnProps {
-  header: string;
+  header?: string;
   links: Hyperlink[];
 }
 
@@ -24,18 +26,26 @@ interface FooterProps {
   setModalVisible(state: boolean): any;
 }
 
+/* Propes required by Emoji */
+interface EmojiProps {
+  src: string;
+}
+
 const Footer = ({ setModal, setModalVisible }: FooterProps) => {
-  const CONTACTS: Hyperlink[] = [
-    { text: "Facebook Page", url: "https://www.facebook.com/OrCaDONAT" },
+  const LINKS: Hyperlink[] = [
     {
-      text: "Email",
+      key: "facebook",
+      text: <Emoji src="/src/assets/images/facebook.png" />,
+      url: "https://www.facebook.com/OrCaDONAT",
+    },
+    {
+      key: "email",
+      text: <Emoji src="/src/assets/images/mail.png" />,
       url: "mailto:donat.stiorca@gmail.com",
     },
-    { text: "Dashboard", url: "/Donat/", target: "_self" },
-  ];
-  const COPYRIGHT: Hyperlink[] = [
     {
-      text: "Website's License",
+      key: "license",
+      text: <Emoji src="/src/assets/images/copyright.png" />,
       call: () => {
         setModal({
           header: "GNU GENERAL PUBLIC LICENSE",
@@ -54,9 +64,13 @@ const Footer = ({ setModal, setModalVisible }: FooterProps) => {
           DONAT
         </h1>
       </div>
-      <div className="flex flex-row bg-[url('/src/assets/images/footer_bg.png')] bg-cover px-3 py-6 font-arial text-4xl text-white no-underline md:pl-24">
-        <FooterCollumn header="Contacts" links={CONTACTS} />
-        <FooterCollumn header="Copyright" links={COPYRIGHT} />
+      <div className="grid grid-flow-col grid-rows-1 justify-items-stretch bg-[url('/src/assets/images/footer_bg.png')] bg-cover px-3 py-6 font-arial text-4xl text-white no-underline md:pl-24">
+        {/* Icons:
+         * https://www.iconsdb.com/white-icons/mail-icon.html
+         * https://www.iconsdb.com/white-icons/facebook-3-icon.html
+         * https://www.iconsdb.com/white-icons/copyright-icon.html
+         */}
+        <FooterRow links={LINKS} />
         <Logo />
       </div>
     </footer>
@@ -69,7 +83,7 @@ const FooterCollumn = ({ header, links }: CollumnProps) => {
       <h1 className="pb-4 font-bold">{header}</h1>
       <ul className="p-0 text-xl !leading-10 md:text-2xl">
         {links.map((link) => (
-          <li key={link.text}>
+          <li key={link.key}>
             <Link
               className="relative before:absolute
                        before:bottom-[-2px] before:left-0 before:h-0.5 before:w-0 before:bg-white before:transition-all before:duration-300 before:ease-out before:content-[''] hover:before:w-full
@@ -87,12 +101,36 @@ const FooterCollumn = ({ header, links }: CollumnProps) => {
   );
 };
 
-const Logo = () => {
+const FooterRow = ({ header, links }: CollumnProps) => {
   return (
-    <div className="relative basis-1/5">
-      <img src={logo} className="absolute bottom-0 right-0 w-32 min-w-24" />
+    <div className="col-span-1 mx-3 basis-2/5">
+      {header && <h1 className="pb-4 font-bold">{header}</h1>}
+      <div className="p-0 text-xl !leading-10 md:text-2xl">
+        {links.map((link) => (
+          <Link
+            className="relative before:absolute hover:opacity-60 hover:transition-all hover:duration-300"
+            to={link.url || "#"}
+            onClick={link.call || function () {}}
+            target={link.target || "_blank"}
+          >
+            {link.text}
+          </Link>
+        ))}
+      </div>
     </div>
   );
+};
+
+const Logo = () => {
+  return (
+    <div className="col-span-1 justify-self-end">
+      <img src={logo} className="w-32 min-w-24" />
+    </div>
+  );
+};
+
+const Emoji = ({ src }: EmojiProps) => {
+  return <img src={src} className="mr-6 inline w-12" />;
 };
 
 export default Footer;

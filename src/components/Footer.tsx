@@ -2,6 +2,10 @@
 import { Link } from "react-router-dom";
 
 import logo from "../assets/images/donat_logo.svg";
+import facebookIcon from "../assets/images/facebook.png";
+import mailIcon from "../assets/images/mail.png";
+import copyrightIcon from "../assets/images/copyright.png";
+
 import License from "./License";
 import { ReactNode } from "react";
 
@@ -35,17 +39,17 @@ const Footer = ({ setModal, setModalVisible }: FooterProps) => {
   const LINKS: Hyperlink[] = [
     {
       key: "facebook",
-      text: <Emoji src="/src/assets/images/facebook.png" />,
+      text: <Emoji src={facebookIcon} />,
       url: "https://www.facebook.com/OrCaDONAT",
     },
     {
       key: "email",
-      text: <Emoji src="/src/assets/images/mail.png" />,
+      text: <Emoji src={mailIcon} />,
       url: "mailto:donat.stiorca@gmail.com",
     },
     {
       key: "license",
-      text: <Emoji src="/src/assets/images/copyright.png" />,
+      text: <Emoji src={copyrightIcon} />,
       call: () => {
         setModal({
           header: "GNU GENERAL PUBLIC LICENSE",

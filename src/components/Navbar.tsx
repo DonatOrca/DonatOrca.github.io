@@ -33,7 +33,7 @@ function Navbar() {
             <div className="h-full rounded-lg bg-bgc px-5 pt-3 md:bg-transparent md:p-0">
               <ul
                 className="group font-kollektif md:visible md:flex md:justify-end lg:text-xl
-              
+
               "
               >
                 <li className="my-3 mr-[6em] md:my-6">
@@ -47,7 +47,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="my-3 mr-[6em] md:my-6">
-                  <Link to={"/"} className={`${hoverEffect}`}>
+                  <Link to={"/officers"} className={`${hoverEffect}`}>
                     Officers
                   </Link>
                 </li>

@@ -1,0 +1,178 @@
+{
+  "current": [
+    {
+      "name": "JOHN BENEDICT LEIS",
+      "picture": "src/assets/images/officers/john_benedict_leis.jpg",
+      "position": "PRESIDENT",
+      "quote": "Strive to carve your legacy to its fullest"
+    },
+    {
+      "name": "HUMPREY DEDASE",
+      "picture": "src/assets/images/officers/humprey_dedase.jpg",
+      "position": "VICE PRESIDENT",
+      "quote": "Expect problems and eat them for breakfast."
+    },
+    {
+      "name": "HYDEE MAE SUMALINOG",
+      "picture": "src/assets/images/officers/hydee_mae_sumalinog.jpg",
+      "position": "SECRETARY",
+      "quote": "Don't be afraid of failing, be afraid of not trying."
+    },
+    {
+      "name": "SAMUEL JOHN PAUL SAN LUIS",
+      "picture": "src/assets/images/officers/samuel_john_paul_san_luis.jpg",
+      "position": "TREASURER",
+      "quote": "If you can do it tomorrow, you can do it today."
+    },
+    {
+      "name": "ALYSSA ERIN PAA",
+      "picture": "src/assets/images/officers/alyssa_erin_paa.jpg",
+      "position": "AUDITOR",
+      "quote": "Dreaming is planning"
+    },
+    {
+      "name": "CLARENCE DALE FRANCISCO",
+      "picture": "src/assets/images/officers/clarence_dale_francisco.jpg",
+      "position": "SENIOR DEVELOPER",
+      "quote": "Hello World"
+    },
+    {
+      "name": "DONAVAN WILLIAM BENNETT",
+      "picture": "src/assets/images/officers/donavan_william_bennett.jpg",
+      "position": "MARKETING DIRECTOR",
+      "quote": "The quiet ones are always the strongest"
+    },
+    {
+      "name": "RALPH BIANAN",
+      "picture": "src/assets/images/officers/ralph_bianan.jpg",
+      "position": "JUNIOR DEVELOPER",
+      "quote": "Breathe in for 5 seconds. Breathe out."
+    },
+    {
+      "name": "EPHRAIM JEREMY ARELLANO",
+      "picture": "src/assets/images/officers/ephraim_jeremy_arellano.jpg",
+      "position": "EVENT MANAGER",
+      "quote": "The moment you stop trying is the moment you lose."
+    },
+    {
+      "name": "EMMANUEL LOPEZ",
+      "picture": "src/assets/images/officers/emmanuel_lopez.jpg",
+      "position": "SOCIAL MEDIA MANAGER",
+      "quote": "Trying to understand life is like reading a book written in invisible ink – the more you explore, the clearer it becomes."
+    },
+    {
+      "name": "NICA ARIANA SAMBAJON",
+      "picture": "src/assets/images/officers/nica_ariana_sambajon.jpg",
+      "position": "GRAPHIC DESIGNER",
+      "quote": "A diamond can't shine bright without pressure"
+    },
+    {
+      "name": "MHARC ALDRED MORATAL",
+      "picture": "src/assets/images/officers/mharc_aldred_moratal.jpg",
+      "position": "GRAPHIC DESIGNER",
+      "quote": "There is hope in every little change. One little throw is all it takes."
+    },
+    {
+      "name": "JOHN DELMAR CARIN",
+      "picture": "src/assets/images/officers/john_delmar_carin.jpg",
+      "position": "GRAPHIC DESIGNER",
+      "quote": "There are no failures, only opportunities."
+    }
+  ],
+  "2022": [
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    }
+  ],
+  "2021": [
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    }
+  ],
+  "2020": [
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    },
+    {
+      "name": "NAME NAME NAME NAME",
+      "picture": "src/assets/images/picture.png",
+      "position": "POSITION"
+    }
+  ]
+}

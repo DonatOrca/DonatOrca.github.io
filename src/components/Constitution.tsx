@@ -166,10 +166,6 @@ const Constitution = () => {
         positive and respectful attitude towards other club members.
       </P>
 
-      <P>
-        <strong>Section 1.</strong>
-      </P>
-
       <H2>ARTICLE VII: POWERS, DUTIES, AND RESPONSIBILITIES OF DONAT</H2>
       <P>
         <strong>Section 1.</strong> The DONAT shall have the responsibility to
@@ -228,7 +224,7 @@ const Constitution = () => {
         <strong>Section 1.</strong> The officers of DONAT are those who
         successfully underwent the application and interview process. These
         include the President, Vice-President, Secretary, Treasurer, Auditor,
-        Marketing Director, Senior Developer, Event Organizer, Junior Developer
+        Marketing Director, Senior Developer, Event Manager, Junior Developer
         and Graphic Designer.
       </P>
       <PList>
@@ -515,7 +511,7 @@ const Constitution = () => {
       </PList>
 
       <P>
-        <strong>Section 9.</strong> The Event Organizer shall have the following
+        <strong>Section 9.</strong> The Event Manager shall have the following
         duties:
       </P>
       <PList>

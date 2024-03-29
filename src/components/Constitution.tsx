@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import backgroundImage from "../assets/bylaws_bg.png";
 
 interface Props {
   children: ReactNode;
@@ -7,9 +8,10 @@ interface Props {
 const Constitution = () => {
   return (
     <div
-      className="bg-[url('bylaws_bg.png')] bg-contain bg-right-top bg-repeat
-                    p-3
-                    font-kollektif text-sm md:text-xl"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+      className="bg-contain bg-right-top bg-repeat
+                 p-3
+                 font-kollektif text-sm md:text-xl"
     >
       <H1>CONSTITUTION AND BY-LAWS</H1>
 

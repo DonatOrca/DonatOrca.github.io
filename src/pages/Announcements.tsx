@@ -16,6 +16,8 @@ function Announcements() {
         </Link>{" "}
         instead. Thank you! 🍩
       </p>
+      <br />
+      <img className="m-auto block rounded" src="error_image.jpg" />
     </>
   );
 }

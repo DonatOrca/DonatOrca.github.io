@@ -42,7 +42,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="my-3 mr-[6em] md:my-6">
-                  <Link to={"/announcement"} className={`${hoverEffect}`}>
+                  <Link to={"/announcements"} className={`${hoverEffect}`}>
                     Announcement
                   </Link>
                 </li>

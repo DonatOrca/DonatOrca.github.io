@@ -1,9 +1,36 @@
 import { ReactNode } from "react";
+import ReactDOMServer from "react-dom/server";
+
+interface ChildrenProps {
+  children: ReactNode;
+}
+
+/**
+ * Use this variable as values for header texts
+ * I initially tried to automate this better but I hate React
+ * and I don't have time to learn hooks contexts and shit
+ */
+const HEADERS: string[] = ["The History of DONAT", "Sparkle", "Stories"];
 
 function History() {
   return (
-    <div className="m-12">
-      <H1>The History of DONAT</H1>
+    <div className="overflow-auto">
+      <Sidebar />
+      <Contents />
+    </div>
+  );
+}
+
+/* Document format of the main content */
+function Contents() {
+  return (
+    <div
+      className="
+      h-screen overflow-scroll overflow-x-hidden rounded
+      p-6 no-scrollbar md:p-12
+    "
+    >
+      <H>{HEADERS[0]}</H>
       <P>
         &gt; 🚧 Apologies, but this page is currently a work-in-progress. Now
         don't mind me just testing some long paragraphs and headers. 🚧 &lt;
@@ -35,7 +62,7 @@ function History() {
         1.10.32.
       </P>
 
-      <H1>Sparkle honkai star rail</H1>
+      <H>{HEADERS[1]}</H>
       <P>
         Skill: Increases the CRIT DMG of a single ally by 12%—26.4% of Sparkle's
         CRIT DMG plus 27%—48.6%, lasting for 1 turn(s). And at the same time,
@@ -89,7 +116,7 @@ function History() {
         adorns her fingers and toes.
       </P>
 
-      <H1>Stories Details</H1>
+      <H>{HEADERS[2]}</H>
       <P>
         The girl, an abandoned orphan, lived without knowledge of her origins or
         destination until she encountered a passing troupe. From a distance, she
@@ -118,14 +145,47 @@ function History() {
   );
 }
 
-interface ChildrenProps {
-  children: ReactNode;
+/* A list of headers on the side that are links to the header's locations in the page */
+function Sidebar() {
+  return (
+    <aside
+      className="p-5 font-kollektif
+                 md:float-left md:h-screen"
+    >
+      <ul>
+        {HEADERS.map((header: string) => {
+          let id: string = simplify_header(header);
+          return (
+            <li key={id} className="my-6 text-lg">
+              <a href={`#${id}`}>{header}</a>
+            </li>
+          );
+        })}
+      </ul>
+    </aside>
+  );
 }
 
-function H1({ children }: ChildrenProps) {
-  return <h1 className="py-3 font-lovelo text-3xl">{children}</h1>;
+/* A stylized h1 element */
+function H({ children }: ChildrenProps) {
+  var child_text: string = ReactDOMServer.renderToString(children);
+  var id: string = simplify_header(child_text);
+
+  return (
+    <h1 id={id} className="py-3 font-lovelo text-3xl">
+      {children}
+    </h1>
+  );
 }
 
+/* Converts a text into #id style */
+function simplify_header(header: string): string {
+  header = header.toLowerCase();
+  header = header.replaceAll(" ", "-");
+  return header;
+}
+
+/* A stylized paragraph element */
 function P({ children }: ChildrenProps) {
   return <p className="py-3 indent-12 font-kollektif text-lg">{children}</p>;
 }

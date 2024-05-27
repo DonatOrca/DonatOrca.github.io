@@ -82,23 +82,16 @@ const Header = ({ title, description }: HeaderProps) => {
 };
 
 const Body = ({ people }: BodyProps) => {
-  let is_dev_environment: boolean =
-    window.location.origin.includes("localhost");
   return (
     <div className="mx-auto max-w-[1000px] text-center">
-      {people.map((person) => {
-        let picture_url: string = is_dev_environment
-          ? person.picture
-          : person.picture.replace("officers/", "");
-        return (
-          <Card
-            name={person.name}
-            picture={picture_url}
-            position={person.position}
-            quote={person.quote}
-          />
-        );
-      })}
+      {people.map((person) => (
+        <Card
+          name={person.name}
+          picture={person.picture}
+          position={person.position}
+          quote={person.quote}
+        />
+      ))}
     </div>
   );
 };

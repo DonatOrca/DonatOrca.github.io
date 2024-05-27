@@ -81,98 +81,118 @@
   ],
   "2022": [
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "JOHN BENEDICT LEIS",
+      "picture": "officers/john_benedict_leis.jpg",
+      "position": "PRESIDENT"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "HUMPREY DEDASE",
+      "picture": "officers/humprey_dedase.jpg",
+      "position": "VICE PRESIDENT"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "STEPHEN ONG",
+      "picture": "picture.png",
+      "position": "SECRETARY"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "SAMUEL JOHN PAUL SAN LUIS",
+      "picture": "officers/samuel_john_paul_san_luis.jpg",
+      "position": "TREASURER"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "FREY BELISON",
+      "picture": "picture.png",
+      "position": "AUDITOR"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "IAN LLOYD ANONUEVO",
+      "picture": "picture.png",
+      "position": "P.R.O INTERNAL"
+    },
+    {
+      "name": "CLARENCE DALE FRANCISCO",
+      "picture": "officers/clarence_dale_francisco.jpg",
+      "position": "P.R.O EXTERNAL"
+    },
+    {
+      "name": "DONAVAN WILLIAM BENNETT",
+      "picture": "officers/donavan_william_bennett.jpg",
+      "position": "MARKETING DIRECTOR"
     }
   ],
   "2021": [
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "MARK ANDREW DUZA",
+      "picture": "picture.png",
+      "position": "PRESIDENT"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "ELWYN YNION",
+      "picture": "picture.png",
+      "position": "VICE PRESIDENT"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "STEPHEN ONG",
+      "picture": "picture.png",
+      "position": "SECRETARY"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "JESSICA ROSE MERCADILLO",
+      "picture": "picture.png",
+      "position": "AUDITOR"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "CHARLES AGUIRRE",
+      "picture": "picture.png",
+      "position": "TREASURER"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "ALEXANDRA NINA CONCEPCION",
+      "picture": "picture.png",
+      "position": "P.R.O. INTERNAL"
+    },
+    {
+      "name": "JASON MATEO",
+      "picture": "picture.png",
+      "position": "P.R.O EXTERNAL"
+    },
+    {
+      "name": "RAGNHILD DIAZ",
+      "picture": "picture.png",
+      "position": "MARKETING DIRECTOR"
     }
   ],
   "2020": [
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "AI AOIKE",
+      "picture": "picture.png",
+      "position": "PRESIDENT"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "ALTHEA LENGGA",
+      "picture": "picture.png",
+      "position": "VICE PRESIDENT"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "JILLIAN VILLARANA",
+      "picture": "picture.png",
+      "position": "SECRETARY"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "KYLE BRAVO",
+      "picture": "picture.png",
+      "position": "TREASURER"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "VAN GARCIA",
+      "picture": "picture.png",
+      "position": "AUDITOR"
     },
     {
-      "name": "NAME NAME NAME NAME",
-      "picture": "src/assets/images/picture.png",
-      "position": "POSITION"
+      "name": "CARL SACATANI",
+      "picture": "picture.png",
+      "position": "P.R.O."
     }
   ]
 }

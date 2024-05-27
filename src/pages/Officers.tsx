@@ -49,6 +49,14 @@ const Officers = () => {
 
       <AccoItem header="2020-2021">
         <Body people={officers["2020"]} />
+        <div className="pb-5 text-center font-lovelo text-2xl">
+          <strong className="text-3xl">404</strong> <br />
+          Not Found Yet...
+        </div>
+      </AccoItem>
+
+      <AccoItem header="2019-2020">
+        <Body people={officers["2019"]} />
       </AccoItem>
 
       <AccoItem header="2016-2019">

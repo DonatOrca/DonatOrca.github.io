@@ -3,7 +3,7 @@ function History() {
     <>
       <h1 className="text-center font-lovelo text-3xl">The History of DONAT</h1>
       <br />
-      <p className="text-center">
+      <p className="text-center font-kollektif text-lg">
         Apologies, but this page is currently a work-in-progress.
       </p>
       <br />

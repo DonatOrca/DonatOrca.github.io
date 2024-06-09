@@ -102,12 +102,12 @@
     },
     {
       "name": "FREY BELISON",
-      "picture": "picture.png",
+      "picture": "officers/FREY_BELISON.jpg",
       "position": "AUDITOR"
     },
     {
       "name": "IAN LLOYD ANONUEVO",
-      "picture": "picture.png",
+      "picture": "officers/IAN_LLOYD_ANONUEVO.jpg",
       "position": "P.R.O INTERNAL"
     },
     {
@@ -124,42 +124,42 @@
   "2021": [
     {
       "name": "MARK ANDREW DUZA",
-      "picture": "picture.png",
+      "picture": "officers/mark_duza.jpg",
       "position": "PRESIDENT"
     },
     {
       "name": "ELWYN YNION",
-      "picture": "picture.png",
+      "picture": "officers/elwyn_ynion.jpg",
       "position": "VICE PRESIDENT"
     },
     {
       "name": "STEPHEN ONG",
-      "picture": "picture.png",
+      "picture": "officers/stephen_ong.jpg",
       "position": "SECRETARY"
     },
     {
       "name": "JESSICA ROSE MERCADILLO",
-      "picture": "picture.png",
+      "picture": "officers/jessica_mercadillo.jpg",
       "position": "AUDITOR"
     },
     {
       "name": "CHARLES AGUIRRE",
-      "picture": "picture.png",
+      "picture": "officers/charles_aguirre.jpg",
       "position": "TREASURER"
     },
     {
       "name": "ALEXANDRA NINA CONCEPCION",
-      "picture": "picture.png",
+      "picture": "officers/alexandra_concepcion.jpg",
       "position": "P.R.O. INTERNAL"
     },
     {
-      "name": "JASON MATEO",
-      "picture": "picture.png",
+      "name": "JASON FRANCIS MATEO",
+      "picture": "officers/francis_mateo.jpg",
       "position": "P.R.O EXTERNAL"
     },
     {
       "name": "RAGNHILD DIAZ",
-      "picture": "picture.png",
+      "picture": "officers/ragnhild_diaz.jpg",
       "position": "MARKETING DIRECTOR"
     }
   ],

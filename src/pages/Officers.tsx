@@ -59,7 +59,18 @@ const Officers = () => {
         <Body people={officers["2019"]} />
       </AccoItem>
 
-      <AccoItem header="2016-2019">
+      <AccoItem header="2018-2019">
+        <div className="py-5 text-center font-lovelo text-2xl">
+          <strong className="text-3xl">404</strong> <br />
+          Not Found Yet...
+        </div>
+      </AccoItem>
+
+      <AccoItem header="2017-2018">
+        <Body people={officers["2017"]} />
+      </AccoItem>
+
+      <AccoItem header="2016-2017">
         <div className="py-5 text-center font-lovelo text-2xl">
           <strong className="text-3xl">404</strong> <br />
           Not Found Yet...

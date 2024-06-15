@@ -201,5 +201,43 @@
       "picture": "picture.png",
       "position": "P.R.O."
     }
+  ],
+
+  "2017": [
+    {
+      "name": "JOHN NELZON CHAN",
+      "picture": "picture.png",
+      "position": "PRESIDENT"
+    },
+    {
+      "name": "ERA MAE RUTAQUIO",
+      "picture": "picture.png",
+      "position": "VICE PRESIDENT"
+    },
+    {
+      "name": "JEN MARECON ALCANTARA",
+      "picture": "picture.png",
+      "position": "SECRETARY"
+    },
+    {
+      "name": "BLESSY ANGELEANE SIBALON",
+      "picture": "picture.png",
+      "position": "TREASURER"
+    },
+    {
+      "name": "LEO MHEL ATIENZA",
+      "picture": "picture.png",
+      "position": "AUDITOR"
+    },
+    {
+      "name": "CHRISTIAN ZYRUS MANGLAPUS",
+      "picture": "picture.png",
+      "position": "P.R.O EXTERNAL"
+    },
+    {
+      "name": "EZEKIEL JOSAN BUNGAY",
+      "picture": "picture.png",
+      "position": "P.R.O INTERNAL"
+    }
   ]
 }

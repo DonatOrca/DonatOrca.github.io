@@ -29,11 +29,11 @@ export default {
         glow: {
           from: {
             textShadow:
-              "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #E60BFF, 0 0 40px #E60BFF, 0 0 50px #E60BFF, 0 0 60px #E60BFF, 0 0 70px #E60BFF",
+              "0 0 0px #fff, 0 0 10px #fff, 0 0 20px #E60BFF, 0 0 20px #E60BFF, 0 0 30px #E60BFF, 0 0 40px #E60BFF, 0 0 50px #E60BFF",
           },
           to: {
             textShadow:
-              "0 0 20px #fff, 0 0 30px #F17AFF, 0 0 40px #F17AFF, 0 0 50px #F17AFF, 0 0 60px #F17AFF, 0 0 70px #F17AFF, 0 0 80px #F17AFF",
+              "0 0 0px #fff, 0 0 10px #F17AFF, 0 0 20px #F17AFF, 0 0 30px #F17AFF, 0 0 40px #F17AFF, 0 0 50px #F17AFF, 0 0 60px #F17AFF",
           },
         },
       },

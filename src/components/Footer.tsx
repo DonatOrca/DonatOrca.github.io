@@ -68,7 +68,7 @@ const Footer = ({ setModal, setModalVisible }: FooterProps) => {
           DONAT
         </h1>
       </div>
-      <div className="grid grid-flow-col grid-rows-1 justify-items-stretch bg-[url('/src/assets/images/footer_bg.png')] bg-cover px-3 py-6 font-arial text-4xl text-white no-underline md:pl-24">
+      <div className="grid grid-flow-col grid-rows-1 justify-items-stretch bg-[url('/src/assets/images/footer_bg.jpg')] bg-cover px-3 py-6 font-arial text-4xl text-white no-underline md:pl-24">
         {/* Icons:
          * https://www.iconsdb.com/white-icons/mail-icon.html
          * https://www.iconsdb.com/white-icons/facebook-3-icon.html

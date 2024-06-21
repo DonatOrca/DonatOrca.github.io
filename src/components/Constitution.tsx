@@ -14,7 +14,7 @@ const Constitution = () => {
   return (
     <div
       style={{ backgroundImage: `url(${backgroundImage})` }}
-      className="min-h-[2300px] bg-contain bg-right-top
+      className="bg-right-top
                  bg-repeat-y font-kollektif text-sm
                  md:text-xl"
     >
@@ -232,7 +232,7 @@ const Contents = () => {
           promote ICT knowledge and skills.
         </P>
         <P>
-          <strong>Section 1.</strong> The DONAT shall have the following
+          <strong>Section 2.</strong> The DONAT shall have the following
           functions and responsibilities:
         </P>
         <PList>
@@ -713,7 +713,7 @@ const Contents = () => {
         </P>
       </Acco>
 
-      <Acco header="ARTICLE XIII: IMPEACHMENT, RESIGNATION, AND VACANCIES<">
+      <Acco header="ARTICLE XIII: IMPEACHMENT, RESIGNATION, AND VACANCIES">
         <P>
           <strong>Section 1.</strong> The officers of the DONAT may be impeached
           on the following grounds:

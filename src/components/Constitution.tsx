@@ -27,11 +27,11 @@ const Constitution = () => {
 };
 
 const H1 = ({ children }: Props) => {
-  return <h1 className="font-bebas py-5 text-3xl font-medium">{children}</h1>;
-};
-
-const H2 = ({ children }: Props) => {
-  return <h2 className="font-bebas py-5 text-2xl font-medium">{children}</h2>;
+  return (
+    <h1 className="font-bebas py-5 text-xl font-medium md:text-3xl ">
+      {children}
+    </h1>
+  );
 };
 
 const P = ({ children }: Props) => {
@@ -53,8 +53,8 @@ const Acco = ({ header, children }: AccoProps) => {
     <div>
       <div onClick={toggle}>
         <h2
-          className="font-bebas py-5 text-2xl font-medium
-                     hover:cursor-pointer"
+          className="font-bebas py-5 text-lg font-medium hover:cursor-pointer
+                     md:text-2xl"
         >
           ⬐ {header}
         </h2>
@@ -808,8 +808,9 @@ const Contents = () => {
           By-Laws shall take effect immediately upon school administration
           approval.
         </P>
+      </Acco>
 
-        <H2>ARTICLE XV: CLUB FINANCES AND INVENTORY</H2>
+      <Acco header="ARTICLE XV: CLUB FINANCES AND INVENTORY">
         <P>
           <strong>Section 1.</strong> The Treasurer is responsible for the
           safekeeping of the collected funds, which will be used for

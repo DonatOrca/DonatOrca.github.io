@@ -10,9 +10,39 @@ const Constitution = () => {
     <div
       style={{ backgroundImage: `url(${backgroundImage})` }}
       className="bg-contain bg-right-top bg-repeat
-                 p-3
-                 font-kollektif text-sm md:text-xl"
+                 font-kollektif text-sm
+                 md:text-xl"
     >
+      {/* Additional ackground overlay over the background image */}
+      <div
+        className="bg-[rgba(0,0,0,0.5)]
+                   p-3"
+      >
+        <Contents />
+      </div>
+    </div>
+  );
+};
+
+const H1 = ({ children }: Props) => {
+  return <h1 className="font-bebas py-5 text-3xl font-medium">{children}</h1>;
+};
+
+const H2 = ({ children }: Props) => {
+  return <h2 className="font-bebas py-5 text-2xl font-medium">{children}</h2>;
+};
+
+const P = ({ children }: Props) => {
+  return <p className="my-4 max-w-[600px] pl-2">{children}</p>;
+};
+
+const PList = ({ children }: Props) => {
+  return <ul className="pl-12">{children}</ul>;
+};
+
+const Contents = () => {
+  return (
+    <>
       <H1>CONSTITUTION AND BY-LAWS</H1>
 
       <H2>PREAMBLE</H2>
@@ -788,24 +818,8 @@ const Constitution = () => {
         tools that are at hand. An inventory report will be conducted once there
         is newly bought material.
       </P>
-    </div>
+    </>
   );
-};
-
-const H1 = ({ children }: Props) => {
-  return <h1 className="font-bebas py-5 text-3xl font-medium">{children}</h1>;
-};
-
-const H2 = ({ children }: Props) => {
-  return <h2 className="font-bebas py-5 text-2xl font-medium">{children}</h2>;
-};
-
-const P = ({ children }: Props) => {
-  return <p className="my-4 max-w-[600px] pl-2">{children}</p>;
-};
-
-const PList = ({ children }: Props) => {
-  return <ul className="pl-12">{children}</ul>;
 };
 
 export default Constitution;

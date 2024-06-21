@@ -14,10 +14,7 @@ const Constitution = () => {
                  md:text-xl"
     >
       {/* Additional background overlay over the background image */}
-      <div
-        className="bg-[rgba(0,0,0,0.5)]
-                   p-3"
-      >
+      <div className="bg-transp p-3">
         <Contents />
       </div>
     </div>

@@ -7,6 +7,7 @@
     --color-bgc: 252 227 255;
     --color-txc: 29 20 50;
     --color-ter: var(--color-txc);
+    --color-transparent: 252, 227, 255, 0.7; /* same as color-bgc */
 
     .text-neon {
       @apply [text-shadow:_-4px_3px_0_rgba(29,20,50,0.4)];
@@ -16,6 +17,7 @@
     --color-bgc: 29 20 50;
     --color-txc: 252 227 255;
     --color-ter: 255 255 255;
+    --color-transparent: 0, 0, 0, 0.5;
 
     .text-neon {
       @apply animate-glow;

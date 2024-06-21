@@ -13,7 +13,7 @@ const Constitution = () => {
                  font-kollektif text-sm
                  md:text-xl"
     >
-      {/* Additional ackground overlay over the background image */}
+      {/* Additional background overlay over the background image */}
       <div
         className="bg-[rgba(0,0,0,0.5)]
                    p-3"

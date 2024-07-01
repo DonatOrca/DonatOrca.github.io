@@ -30,14 +30,21 @@ const Officers = () => {
   return (
     <div className="py-5">
       {/* Current officers */}
-      <Header title="CURRENT" description="SCHOOL YEAR 2023-2024" />
-      <Body people={officers.current} />
+      <Header title="CURRENT" description="SCHOOL YEAR 2024-2025" />
+      {/* <Body people={officers.current} /> */}
+      <div className="py-5 text-center font-lovelo text-2xl">
+        Coming Soon...
+      </div>
 
       {/* Add some space in between */}
       <div className="py-6"></div>
 
       {/* Archived Officers */}
       <Header title="ARCHIVED" />
+
+      <AccoItem header="2023-2024">
+        <Body people={officers["2023"]} />
+      </AccoItem>
 
       <AccoItem header="2022-2023">
         <Body people={officers["2022"]} />

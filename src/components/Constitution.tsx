@@ -188,26 +188,30 @@ const Contents = () => {
           environment.
         </P>
         <P>
-          <strong>Section 2.</strong> Every student has a right to actively
+          <strong>Section 2.</strong> Every student has the right to enjoy
+          responsible freedom of speech and expression.
+        </P>
+        <P>
+          <strong>Section 3.</strong> Every student has a right to actively
           participate in all club activities and programs.
         </P>
         <P>
-          <strong>Section 3.</strong> Every student has the right to express
+          <strong>Section 4.</strong> Every student has the right to express
           freely and responsibly their concerns, and views.
         </P>
         <P>
-          <strong>Section 4.</strong> Every student has a right to choose their
+          <strong>Section 5.</strong> Every student has a right to choose their
           classes (Cipher/Munchkins/Prober).
-        </P>
-        <P>
-          <strong>Section 5.</strong> Every student has the right to suffrage,
-          apply for a position, nominate, be elected to office, and exercise
-          other electoral practices.
         </P>
         <P>
           <strong>Section 6.</strong> Every student has the right to suffrage,
           apply for a position, nominate, be elected to office, and exercise
           other electoral practices.
+        </P>
+        <P>
+          <strong>Section 7.</strong> All other rights as specified in the STI
+          Student Handbook but not specified herein are included as rights of
+          the students.
         </P>
       </Acco>
 
@@ -246,8 +250,8 @@ const Contents = () => {
             that will enhance the knowledge of every member of the organization.
           </li>
           <li>
-            <strong>2.3.</strong> To create activities, programs and seminars
-            that will enhance the knowledge of every member of the organization.
+            <strong>2.3.</strong> To coordinate with other organizations and
+            clubs to further enhance desired events.
           </li>
         </PList>
       </Acco>

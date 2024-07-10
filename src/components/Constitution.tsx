@@ -14,9 +14,9 @@ const Constitution = () => {
   return (
     <div
       style={{ backgroundImage: `url(${backgroundImage})` }}
-      className="bg-right-top
-                 bg-repeat-y font-kollektif text-sm
-                 md:text-xl"
+      className="bg-right-top bg-repeat-y font-kollektif
+                 text-sm
+                 text-txc/85 md:text-xl"
     >
       {/* Additional background overlay over the background image */}
       <div className="bg-transp p-3">

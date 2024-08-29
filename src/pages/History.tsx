@@ -132,7 +132,7 @@ function Contents() {
         adviser as well as our very last GA as SHS students.
       </P>
 
-      <Image src="history/donat_last_ga_2016.png" />
+      <Image src="/history/donat_last_ga_2016.png" />
 
       <P>
         Here's another picture, some of the officers and members, from left to
@@ -149,7 +149,7 @@ function Contents() {
         </List>
       </P>
 
-      <Image src="history/donat_officers_2016.png" />
+      <Image src="/history/donat_officers_2016.png" />
     </div>
   );
 }
